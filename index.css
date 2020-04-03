@@ -3,20 +3,20 @@ body * {
 }
 
 body {
-font-family: 'Oxanium', cursive;
-background-color: gainsboro;
+  font-family: "Oxanium", cursive;
+  background-color: gainsboro;
 }
 
 h1 {
-font-size: 28px;
+  font-size: 28px;
 }
 
 h2 {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .header {
-text-align: center;
+  text-align: center;
 }
 
 form {
@@ -28,8 +28,8 @@ form {
   background-color: darkgray;
   font-weight: bold;
   min-width: 300px;
-  padding: .2em .5em;
-  margin: .25em 0;
+  padding: 0.2em 0.5em;
+  margin: 0.25em 0;
 }
 
 .container {
@@ -45,16 +45,12 @@ form {
   font-weight: bold;
   color: white;
   width: 125px;
-  }
+}
 
-input[type=text]{
+input[type="text"] {
   outline-color: darkgray;
 }
 
-.hidden {
-  display: none;
-  visibility: hidden;
-}
 .error {
   color: red;
 }
@@ -66,34 +62,31 @@ input[type=text]{
   align-content: flex-start;
   border: 1px solid lightgray;
   border-radius: 4px;
-  box-shadow:0px 3px 5px 1px lightgray;
+  box-shadow: 0px 3px 5px 1px lightgray;
   padding: 15px;
   font-size: 1rem;
-  
 }
 .flex-container {
   max-width: 42rem;
   min-width: 325px;
- 
 }
 .user {
   color: darkgray;
-
 }
-li{
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: inherit;
 }
-ul{
+ul {
   margin-top: -10px;
 }
 .result-item {
-width: 100%;
-border: 1px solid lightgray;
-padding: .5rem;
-padding-left: 50px;
-padding-right: 50px;
-border-radius: 4px;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 4px;
 }
